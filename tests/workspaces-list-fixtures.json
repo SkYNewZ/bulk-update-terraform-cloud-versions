@@ -1,0 +1,321 @@
+{
+  "data": [
+    {
+      "id": "ws-39dYeDaRbZzxFqDx",
+      "type": "workspaces",
+      "attributes": {
+        "name": "lz-gcp-lmfr-ddp-dtm-offer-int-frlm",
+        "auto-apply": false,
+        "created-at": "2019-10-31T16:34:14.627Z",
+        "environment": "default",
+        "locked": false,
+        "queue-all-runs": false,
+        "terraform-version": "0.8.8",
+        "working-directory": "",
+        "speculative-enabled": true,
+        "latest-change-at": "2019-11-20T14:45:30.717Z",
+        "operations": true,
+        "vcs-repo": {
+          "branch": "master",
+          "ingress-submodules": false,
+          "identifier": "adeo/iwc-gcp-landingzone",
+          "display-identifier": "adeo/iwc-gcp-landingzone",
+          "oauth-token-id": "ot-4jrT1GPcqEiX665c",
+          "webhook-url": "https://app.terraform.io/webhooks/vcs/cc1b7b1b-210a-4fba-bc0c-b0830cbb9bb9"
+        },
+        "permissions": {
+          "can-update": true,
+          "can-destroy": true,
+          "can-queue-destroy": true,
+          "can-queue-run": true,
+          "can-queue-apply": true,
+          "can-update-variable": true,
+          "can-lock": true,
+          "can-unlock": true,
+          "can-force-unlock": true,
+          "can-read-settings": true
+        },
+        "actions": {
+          "is-destroyable": true
+        },
+        "description": null,
+        "file-triggers-enabled": true,
+        "trigger-prefixes": [],
+        "source": "tfe-api",
+        "source-name": null,
+        "source-url": null
+      },
+      "relationships": {
+        "organization": {
+          "data": {
+            "id": "adeo",
+            "type": "organizations"
+          }
+        },
+        "ssh-key": {
+          "data": {
+            "id": "sshkey-eCbNxaTysUDX48vX",
+            "type": "ssh-keys"
+          },
+          "links": {
+            "related": "/api/v2/ssh-keys/sshkey-eCbNxaTysUDX48vX"
+          }
+        },
+        "current-run": {
+          "data": {
+            "id": "run-N51ReS2PwBsWQ6fv",
+            "type": "runs"
+          },
+          "links": {
+            "related": "/api/v2/runs/run-N51ReS2PwBsWQ6fv"
+          }
+        },
+        "latest-run": {
+          "data": {
+            "id": "run-N51ReS2PwBsWQ6fv",
+            "type": "runs"
+          },
+          "links": {
+            "related": "/api/v2/runs/run-N51ReS2PwBsWQ6fv"
+          }
+        },
+        "current-state-version": {
+          "data": {
+            "id": "sv-1EbXLRjknFGEsMAC",
+            "type": "state-versions"
+          },
+          "links": {
+            "related": "/api/v2/workspaces/ws-39dYeDaRbZzxFqDx/current-state-version"
+          }
+        }
+      },
+      "links": {
+        "self": "/api/v2/organizations/adeo/workspaces/lz-gcp-lmfr-ddp-dtm-offer-int-frlm"
+      }
+    },
+    {
+      "id": "ws-MjJx4Khxu57FYYZ9",
+      "type": "workspaces",
+      "attributes": {
+        "name": "lz-gcp-ddp-dtm-perf-int-frlm",
+        "auto-apply": false,
+        "created-at": "2019-11-15T15:50:12.914Z",
+        "environment": "default",
+        "locked": false,
+        "queue-all-runs": false,
+        "terraform-version": "0.11.13",
+        "working-directory": null,
+        "speculative-enabled": true,
+        "latest-change-at": "2019-11-20T14:45:40.754Z",
+        "operations": true,
+        "vcs-repo": {
+          "branch": "master",
+          "ingress-submodules": false,
+          "identifier": "adeo/iwc-gcp-landinghub",
+          "display-identifier": "adeo/iwc-gcp-landinghub",
+          "oauth-token-id": "ot-4jrT1GPcqEiX665c",
+          "webhook-url": "https://app.terraform.io/webhooks/vcs/cc1b7b1b-210a-4fba-bc0c-b0830cbb9bb9"
+        },
+        "permissions": {
+          "can-update": true,
+          "can-destroy": true,
+          "can-queue-destroy": true,
+          "can-queue-run": true,
+          "can-queue-apply": true,
+          "can-update-variable": true,
+          "can-lock": true,
+          "can-unlock": true,
+          "can-force-unlock": true,
+          "can-read-settings": true
+        },
+        "actions": {
+          "is-destroyable": true
+        },
+        "description": null,
+        "file-triggers-enabled": true,
+        "trigger-prefixes": [],
+        "source": "tfe-api",
+        "source-name": "IWCAPI",
+        "source-url": "https://iwcapi-dot-iwc-apipy-ss-dtep.appspot.com"
+      },
+      "relationships": {
+        "organization": {
+          "data": {
+            "id": "adeo",
+            "type": "organizations"
+          }
+        },
+        "ssh-key": {
+          "data": {
+            "id": "sshkey-eCbNxaTysUDX48vX",
+            "type": "ssh-keys"
+          },
+          "links": {
+            "related": "/api/v2/ssh-keys/sshkey-eCbNxaTysUDX48vX"
+          }
+        },
+        "current-run": {
+          "data": {
+            "id": "run-oEGQm2Bembwee5Uz",
+            "type": "runs"
+          },
+          "links": {
+            "related": "/api/v2/runs/run-oEGQm2Bembwee5Uz"
+          }
+        },
+        "latest-run": {
+          "data": {
+            "id": "run-oEGQm2Bembwee5Uz",
+            "type": "runs"
+          },
+          "links": {
+            "related": "/api/v2/runs/run-oEGQm2Bembwee5Uz"
+          }
+        },
+        "current-state-version": {
+          "data": {
+            "id": "sv-8xkkyBvbv78EMpBZ",
+            "type": "state-versions"
+          },
+          "links": {
+            "related": "/api/v2/workspaces/ws-MjJx4Khxu57FYYZ9/current-state-version"
+          }
+        }
+      },
+      "links": {
+        "self": "/api/v2/organizations/adeo/workspaces/lz-gcp-ddp-dtm-perf-int-frlm"
+      }
+    },
+    {
+      "id": "ws-dCG8iLkmei1DfKra",
+      "type": "workspaces",
+      "attributes": {
+        "name": "lz-gcp-ddp-dtm-market-dev-frlm",
+        "auto-apply": false,
+        "created-at": "2019-11-15T15:51:40.870Z",
+        "environment": "default",
+        "locked": false,
+        "queue-all-runs": false,
+        "terraform-version": "0.12.13",
+        "working-directory": null,
+        "speculative-enabled": true,
+        "latest-change-at": "2019-11-20T14:45:48.026Z",
+        "operations": true,
+        "vcs-repo": {
+          "branch": "master",
+          "ingress-submodules": false,
+          "identifier": "adeo/iwc-gcp-landingzone",
+          "display-identifier": "adeo/iwc-gcp-landingzone",
+          "oauth-token-id": "ot-4jrT1GPcqEiX665c",
+          "webhook-url": "https://app.terraform.io/webhooks/vcs/cc1b7b1b-210a-4fba-bc0c-b0830cbb9bb9"
+        },
+        "permissions": {
+          "can-update": true,
+          "can-destroy": true,
+          "can-queue-destroy": true,
+          "can-queue-run": true,
+          "can-queue-apply": true,
+          "can-update-variable": true,
+          "can-lock": true,
+          "can-unlock": true,
+          "can-force-unlock": true,
+          "can-read-settings": true
+        },
+        "actions": {
+          "is-destroyable": true
+        },
+        "description": null,
+        "file-triggers-enabled": true,
+        "trigger-prefixes": [],
+        "source": "tfe-api",
+        "source-name": "IWCAPI",
+        "source-url": "https://iwcapi-dot-iwc-apipy-ss-dtep.appspot.com"
+      },
+      "relationships": {
+        "organization": {
+          "data": {
+            "id": "adeo",
+            "type": "organizations"
+          }
+        },
+        "ssh-key": {
+          "data": {
+            "id": "sshkey-eCbNxaTysUDX48vX",
+            "type": "ssh-keys"
+          },
+          "links": {
+            "related": "/api/v2/ssh-keys/sshkey-eCbNxaTysUDX48vX"
+          }
+        },
+        "current-run": {
+          "data": {
+            "id": "run-tSXfT7refBrqsYdE",
+            "type": "runs"
+          },
+          "links": {
+            "related": "/api/v2/runs/run-tSXfT7refBrqsYdE"
+          }
+        },
+        "latest-run": {
+          "data": {
+            "id": "run-tSXfT7refBrqsYdE",
+            "type": "runs"
+          },
+          "links": {
+            "related": "/api/v2/runs/run-tSXfT7refBrqsYdE"
+          }
+        },
+        "current-state-version": {
+          "data": {
+            "id": "sv-srFdqcB3hJtXH8hj",
+            "type": "state-versions"
+          },
+          "links": {
+            "related": "/api/v2/workspaces/ws-dCG8iLkmei1DfKra/current-state-version"
+          }
+        }
+      },
+      "links": {
+        "self": "/api/v2/organizations/adeo/workspaces/lz-gcp-ddp-dtm-market-dev-frlm"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://app.terraform.io/api/v2/organizations/adeo/workspaces?page%5Bnumber%5D=6\u0026page%5Bsize%5D=100",
+    "first": "https://app.terraform.io/api/v2/organizations/adeo/workspaces?page%5Bnumber%5D=1\u0026page%5Bsize%5D=100",
+    "prev": "https://app.terraform.io/api/v2/organizations/adeo/workspaces?page%5Bnumber%5D=5\u0026page%5Bsize%5D=100",
+    "next": null,
+    "last": "https://app.terraform.io/api/v2/organizations/adeo/workspaces?page%5Bnumber%5D=6\u0026page%5Bsize%5D=100"
+  },
+  "meta": {
+    "status-counts": {
+      "pending": 0,
+      "plan-queued": 0,
+      "planning": 0,
+      "planned": 43,
+      "confirmed": 0,
+      "apply-queued": 0,
+      "applying": 0,
+      "applied": 125,
+      "discarded": 13,
+      "errored": 204,
+      "canceled": 0,
+      "cost-estimating": 0,
+      "cost-estimated": 0,
+      "policy-checking": 0,
+      "policy-override": 0,
+      "policy-checked": 0,
+      "policy-soft-failed": 0,
+      "planned-and-finished": 191,
+      "none": 3,
+      "total": 579
+    },
+    "pagination": {
+      "current-page": 6,
+      "prev-page": 5,
+      "next-page": null,
+      "total-pages": 6,
+      "total-count": 579
+    }
+  }
+}
