@@ -54,7 +54,7 @@ def get_all_workspaces(
 
             workspace_vcs_branch = repo["branch"]
             # if workspace vcs does not match a wanted vcs
-            if not repo["identifier"] in vcs:
+            if repo["identifier"] not in vcs:
                 print(
                     f"{Style.DIM}[SKIP] '{workspace_name}' does not match a wanted vcs ({repo['identifier']})"
                 )
@@ -69,7 +69,7 @@ def get_all_workspaces(
                 continue
 
             # If wanted branch does not match
-            if not workspace_vcs_branch == vcs_branch:
+            if workspace_vcs_branch != vcs_branch:
                 print(
                     f"{Style.DIM}[SKIP] '{workspace_name}' does not match a wanted vcs branch ({workspace_vcs_branch})"
                 )
@@ -85,7 +85,7 @@ def get_all_workspaces(
                 continue
 
             # Search for matching version
-            if not searched_terraform_version in workspace_terraform_version:
+            if searched_terraform_version not in workspace_terraform_version:
                 # if search_older disable, continue
                 if not search_older:
                     print(
@@ -160,10 +160,7 @@ def format_print(w: dict, terraform_version: str):
 
 def validate_terraform_version(check: str) -> bool:
     """Check if given Terraform version is available"""
-    for version in AVAILABLE_TERRAFORM_VERSIONS:
-        if version in check:
-            return True
-    return False
+    return any(version in check for version in AVAILABLE_TERRAFORM_VERSIONS)
 
 
 @click.command()
@@ -253,7 +250,7 @@ def main(
             print("Exiting…")
             sys.exit(0)
 
-        if i == "Y":
+        else:
             break
 
     # Lauch main process : update all given workspaces with given Terraform version in given org
